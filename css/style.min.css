@@ -822,7 +822,6 @@ body {
 }
 
 .effects-block__title {
-  font-family: "Raleway";
   font-weight: 600;
   font-size: 30px;
   line-height: 35px;
@@ -866,7 +865,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -981,7 +979,6 @@ body {
   text-align: left;
   padding: 23px 30px 3px 30px;
   flex: 1;
-  font-family: "Raleway";
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
@@ -1000,7 +997,6 @@ body {
 
 .feedback .card__customer-name {
   margin-top: 15px;
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
@@ -1065,7 +1061,6 @@ body {
 }
 
 .gift-card__title {
-  font-family: "Raleway";
   font-weight: 600;
   font-size: 30px;
   line-height: 35px;
@@ -1077,7 +1072,6 @@ body {
 .gift-card__text {
   max-width: 787px;
   margin: 0 auto;
-  font-family: "Raleway";
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -1103,7 +1097,6 @@ body {
 }
 
 .gift-card__sub-title {
-  font-family: "Raleway";
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
@@ -1115,7 +1108,6 @@ body {
   margin-top: 33px;
   padding: 14px 82px;
   text-decoration: none;
-  font-family: "Raleway";
   font-weight: 600;
   font-size: 17px;
   line-height: 20px;
