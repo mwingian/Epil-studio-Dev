@@ -1,0 +1,2043 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Regular.woff2") format("woff2"), url("/fonts/Raleway-Regular.woff") format("woff"), url("/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Medium.woff2") format("woff2"), url("/fonts/Raleway-Medium.woff") format("woff"), url("/fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-SemiBold.woff2") format("woff2"), url("/fonts/Raleway-SemiBold.woff") format("woff"), url("/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Bold.woff2") format("woff2"), url("/fonts/Raleway-Bold.woff") format("woff"), url("/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-ExtraBold.woff2") format("woff2"), url("/fonts/Raleway-ExtraBold.woff") format("woff"), url("/fonts/Raleway-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #fffaf6;
+}
+
+.header {
+  position: relative;
+}
+
+.header__container {
+  max-width: 1328px;
+  width: 100%;
+  padding: 0px 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
+.header__logo.change-logo svg .path {
+  fill: #7d544a;
+}
+
+.header__logo.change-logo svg .stroke {
+  stroke: #7d544a;
+}
+
+.header__wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 122px;
+  z-index: 20;
+  transition: all 0.4s ease-out;
+}
+
+.header__wrapper.fixed {
+  background-color: #fffaf6;
+  transition: all 0.4s ease-out;
+}
+
+.header__wrapper.fixed .menu__list>li>a {
+  color: black;
+  transition: all 0.4s ease;
+}
+
+.header__fullscreen {
+  background: url(../img/background.jpg) center center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__inner-content {
+  flex: 1;
+}
+
+.header .scroll-down-container {
+  max-width: 1328px;
+  width: 100%;
+  padding: 0px 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header .scroll-down-btn {
+  cursor: pointer;
+  margin-bottom: 59px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.arrow-container {
+  position: relative;
+  display: none;
+}
+
+.arrow-container .arrow-back {
+  cursor: pointer;
+  position: absolute;
+  left: 34px;
+  bottom: -19px;
+}
+
+.menu__burger {
+  display: none;
+}
+
+.menu__list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu__item {
+  margin-left: 27px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #fffaf6;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu__link.active-item {
+  border-bottom: 2px solid;
+  transition: all 0.5s ease;
+}
+
+.logo-mobile-menu {
+  display: none;
+}
+
+.about {
+  background-color: #fffaf6;
+  padding: 130px 155px 65px 155px;
+  transition: all 0.6s;
+  overflow: hidden;
+}
+
+.about-container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.about-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 129px 0;
+}
+
+.about-text {
+  flex: 0 1 auto;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 0 0 26px 0;
+  transition: all 0.6s;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  max-width: 600px;
+  line-height: 42px;
+  transition: all 0.6s;
+}
+
+.about-image {
+  flex: 0 0 auto;
+}
+
+.about-image img {
+  width: 362px;
+  height: 362px;
+  border-radius: 50%;
+  box-shadow: 4px 6px 32px #f2b6a8;
+  transition: all 0.6s;
+  object-fit: cover;
+}
+
+.details-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: all 0.6s;
+}
+
+.details-item {
+  display: flex;
+  flex: 0 1 45%;
+  margin-bottom: 49.5px;
+  max-width: 518px;
+  transition: all 0.6s;
+}
+
+.item-image {
+  margin: 0 30px 0 0;
+  transition: all 0.6s;
+}
+
+.item-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  transition: all 0.6s;
+}
+
+.zabiegi__background {
+  margin-bottom: -49px;
+  margin-left: 22px;
+  max-width: 975px;
+  width: 100%;
+  height: 294px;
+  background: url(../img/background_zabiegi.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.zabiegi__container {
+  max-width: 1328px;
+  width: 100%;
+  padding: 0px 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.zabiegi__btn-block {
+  margin: 0 auto;
+  text-align: center;
+  padding: 58px 0px;
+}
+
+.zabiegi__btn {
+  display: inline-block;
+  padding: 20px 89px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #392e26;
+  background: #f2b6a8;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.zabiegi__btn:hover {
+  background: #f6ccc3;
+}
+
+.zabiegi .tabs__items {
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.zabiegi .tabs__items .active {
+  border-bottom: 2px solid #000000;
+}
+
+.zabiegi .tabs__item {
+  flex: 0 1 auto;
+  list-style: none;
+  margin: 18px 10px;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+}
+
+.zabiegi .tabs__head .sub__items {
+  padding: 0px;
+  margin-top: 68px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.zabiegi .tabs__head .sub__item {
+  cursor: pointer;
+  list-style: none;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 50px;
+  color: #000000;
+  border-bottom: 2px solid transparent;
+}
+
+.zabiegi .tabs__head .active {
+  border-bottom: 2px solid #000000;
+}
+
+.zabiegi .tabs__head .disabled {
+  color: #959595;
+  cursor: auto;
+}
+
+.zabiegi .tabs__content {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.zabiegi .tabs__content.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zabiegi .tabs__content .image {
+  width: 410px;
+  position: relative;
+}
+
+.zabiegi .tabs__content .image__wrapper-big {
+  position: absolute;
+  left: 29px;
+}
+
+.zabiegi .tabs__content .image__wrapper-big img {
+  max-width: 318px;
+  width: 100%;
+}
+
+.zabiegi .tabs__content .image__wrapper-small {
+  position: absolute;
+  top: 173px;
+  left: -16px;
+}
+
+.zabiegi .tabs__content .image__wrapper-small img {
+  max-width: 193px;
+  width: 100%;
+}
+
+.zabiegi .tabs__content .content__list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.zabiegi .tabs__content .content__list.with-photo {
+  max-width: 623px;
+  width: 100%;
+}
+
+.zabiegi .tabs__content .content__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.zabiegi .tabs__content .content__item {
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  margin: 15px 0px;
+}
+
+.zabiegi .tabs__content .content__item.bold {
+  font-weight: 500;
+}
+
+.zabiegi .tabs__content .content__item.dots {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.zabiegi .tabs__content .content__item.dots::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  border-bottom: 1px dotted #000;
+}
+
+.benefits-block {
+  background-image: url(../img/Rectangle_25.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 154px 71px 57px 71px;
+  background-color: #fffaf6;
+  transition: all 0.6s;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.benefits-title {
+  text-transform: uppercase;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 0 90px 0;
+  transition: all 0.6s;
+}
+
+.benefits-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  transition: all 0.6s;
+}
+
+.benefits-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 50%;
+  margin-bottom: 96px;
+}
+
+.benefits-subtitle {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 21px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  transition: all 0.6s;
+}
+
+.benefits-description {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 334px;
+  transition: all 0.6s;
+}
+
+.effects-block {
+  padding-top: 134px;
+  padding-bottom: 144px;
+}
+
+.effects-block__title {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 0px 34px;
+}
+
+.effects-block__container {
+  position: relative;
+  max-width: 1328px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 113px;
+  padding: 0px 54px;
+  box-sizing: border-box;
+}
+
+.effects-block .effectsSlider.swiper {
+  max-width: 938px;
+  height: 100%;
+  background-color: #fffaf6;
+}
+
+.effects-block .effectsSlider-slide.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.effects-block .effectsSlider-slide.swiper-slide span {
+  background-color: #f2b6a8;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.effects-block .effectsSlider-slide.swiper-slide .before {
+  padding: 11px 34px;
+}
+
+.effects-block .effectsSlider-slide.swiper-slide .after {
+  padding: 11px 56px;
+}
+
+.effects-block .effectsSlider-slide.swiper-slide img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.effects-block .effectsSlider-btn-prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 24px;
+}
+
+.effects-block .effectsSlider-btn-prev .prev-small {
+  display: none;
+}
+
+.effects-block .effectsSlider-btn-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 24px;
+}
+
+.effects-block .effectsSlider-btn-next .next-small {
+  display: none;
+}
+
+.feedback__container {
+  display: flex;
+  max-width: 1328px;
+  width: 100%;
+  padding: 0px 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.feedback__background {
+  max-width: 1328px;
+  padding: 0 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.feedback__background .background {
+  margin-bottom: -45px;
+  margin-left: 17px;
+  max-width: 835px;
+  width: 100%;
+  height: 185px;
+  background: url(../img/background_feedback.png);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+}
+
+.feedback .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+}
+
+.feedback .card__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.feedback .card.swiper-slide {
+  background-color: #f2b6a8;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback .card__title {
+  margin-left: 30px;
+  margin-top: 32px;
+  font-size: 25px;
+}
+
+.feedback .card__quotes {
+  background: #7d544a;
+  width: 35px;
+  height: 28px;
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback .card__body {
+  text-align: left;
+  padding: 23px 30px 3px 30px;
+  flex: 1;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.feedback .card__footer {
+  padding: 15px 30px 32px 30px;
+}
+
+.feedback .card__footer-line {
+  max-width: 236px;
+  width: 100%;
+  height: 2px;
+  background-color: #fffaf6;
+}
+
+.feedback .card__customer-name {
+  margin-top: 15px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.feedback .card__customer-stars .stars__container {
+  margin-top: 7px;
+  max-width: 125px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback .card__customer-stars .stars__container .star {
+  width: 18px;
+  height: 14px;
+}
+
+.feedback .feedbackSlider {
+  max-width: 1100px;
+  width: 100%;
+  min-height: 500px;
+}
+
+.feedback .slider__pagination {
+  margin-top: 95px;
+  position: relative;
+}
+
+.feedback .slider__pagination .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0px 7px;
+}
+
+.feedback .slider__pagination .swiper-pagination span {
+  margin-left: 0px;
+}
+
+.feedback .slider__pagination .swiper-pagination .swiper-pagination-bullet {
+  margin-left: 15px;
+  background-color: #ffe0d9;
+  opacity: 1;
+  height: 18px;
+  width: 18px;
+}
+
+.feedback .slider__pagination .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f2b6a8;
+  height: 18px;
+  width: 18px;
+}
+
+.gift-card {
+  padding-top: 71px;
+}
+
+.gift-card__container {
+  max-width: 1328px;
+  width: 100%;
+  padding: 0px 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.gift-card__title {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.gift-card__text {
+  max-width: 787px;
+  margin: 0 auto;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-top: 31px;
+}
+
+.gift-card__text span {
+  font-weight: 800;
+}
+
+.gift-card__btn-block {
+  margin: 0 auto;
+  margin-top: 113px;
+  padding-top: 44px;
+  padding-bottom: 107px;
+  text-align: center;
+  background: url(../img/background_gift.png);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+}
+
+.gift-card__sub-title {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.gift-card__btn {
+  display: inline-block;
+  margin-top: 33px;
+  padding: 14px 82px;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #392e26;
+  background: #fffaf6;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.gift-card__btn:hover {
+  background: #f7ccc3;
+}
+
+.footer {
+  padding: 113px 241px 83px 147px;
+  background-color: #fffaf6;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1053px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-element {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: all 0.6s;
+}
+
+.footer-contacts li {
+  padding: 0 0 0 47px;
+  position: relative;
+}
+
+.footer-contacts li a {
+  text-decoration: none;
+  color: #392e26;
+}
+
+.footer-contacts li .instagram::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/instagram.svg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+
+.footer-contacts li .facebook::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/facebook.svg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+
+.footer-contacts li .phone::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/phone.svg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+
+.footer-contacts li .email::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/mail.svg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+
+.footer-contacts li .location::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/location.svg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+
+.footer-logo {
+  align-self: center;
+  order: 1;
+}
+
+.footer-schedule,
+.footer-contacts {
+  order: 1;
+}
+
+.element-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 0 12px 0;
+  margin: 0 0 35px 0;
+  position: relative;
+}
+
+.element-title::after {
+  content: "";
+  position: absolute;
+  width: 283px;
+  height: 1px;
+  background-color: #392e26;
+  bottom: 0;
+  left: 0;
+}
+
+.element-list {
+  margin: 0;
+  padding: 0;
+}
+
+.element-list li {
+  list-style: none;
+}
+
+.list-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 14px 0;
+}
+
+@media (max-width: 992px) {
+  .header__wrapper {
+    height: 82px;
+  }
+
+  .header__logo svg {
+    width: 120px;
+    height: 54px;
+  }
+
+  .header .menu__item {
+    margin-left: 16px;
+  }
+
+  .header .menu__link {
+    font-size: 16px;
+  }
+
+  .header .scroll-down-btn {
+    margin-bottom: 30px;
+  }
+
+  .header .scroll-down-btn svg {
+    height: 42px;
+    width: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__wrapper {
+    height: 42px;
+  }
+
+  .header__logo svg {
+    width: 45px;
+    height: 19px;
+  }
+
+  .header .scroll-down-btn {
+    margin-bottom: 17px;
+  }
+
+  .header .scroll-down-btn svg {
+    height: 22px;
+    width: 22px;
+  }
+
+  .header__fullscreen {
+    min-height: 227px;
+  }
+
+  .menu__burger {
+    cursor: pointer;
+    display: block;
+    width: 18px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu__burger.scroll span {
+    background-color: #000000;
+  }
+
+  .menu__burger span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+  }
+
+  .menu__body {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    background: #fffaf6;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 41px;
+    overflow: auto;
+    transition: all 0.5s ease;
+  }
+
+  .menu__body.active {
+    left: 0;
+  }
+
+  .menu__list {
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  .menu__item {
+    margin: 14px 0px;
+  }
+
+  .menu__link {
+    margin: 0px;
+    color: #000000;
+  }
+
+  .logo-mobile-menu {
+    display: block;
+    text-align: center;
+    margin: 14px 0px;
+  }
+
+  .arrow-container {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .zabiegi__background {
+    margin-bottom: -40px;
+    margin-left: 22px;
+    max-width: 600px;
+    width: 100%;
+    height: 211px;
+  }
+
+  .zabiegi .tabs__item {
+    font-size: 18px;
+    margin: 12px 9px;
+  }
+
+  .zabiegi__btn {
+    padding: 14px 59px;
+    font-size: 18px;
+    line-height: 16px;
+  }
+
+  .zabiegi .tabs__head .sub__items {
+    margin-top: 42px;
+    margin-bottom: 38px;
+  }
+
+  .zabiegi .tabs__head .sub__item {
+    margin: 0px 20px;
+    font-size: 18px;
+  }
+
+  .zabiegi .tabs__content .content__list {
+    padding: 0px 22px;
+  }
+
+  .zabiegi .tabs__content .content__item {
+    font-size: 16px;
+    margin: 14px 0px;
+  }
+
+  .zabiegi .tabs__content .image {
+    display: none;
+  }
+
+  .zabiegi .tabs__content.photo {
+    display: block;
+  }
+
+  .zabiegi .tabs__content .content__list.with-photo {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .zabiegi__background {
+    margin-bottom: -23px;
+    margin-left: 8px;
+    max-width: 250px;
+    width: 100%;
+    height: 75px;
+  }
+
+  .zabiegi .tabs__content .content__list {
+    padding: 0px 18px;
+  }
+
+  .zabiegi .tabs__content .content__item {
+    font-size: 12px;
+    margin: 7px 0px;
+  }
+
+  .zabiegi__btn-block {
+    padding-top: 40px;
+    padding-bottom: 47px;
+  }
+
+  .zabiegi__btn {
+    padding: 12px 50px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .zabiegi .tabs__item {
+    font-size: 14px;
+    margin: 9px 7px;
+  }
+
+  .zabiegi .tabs__head .sub__items {
+    margin-top: 35px;
+    margin-bottom: 27px;
+  }
+
+  .zabiegi .tabs__head .sub__item {
+    margin: 0px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .feedback__background .background {
+    margin-bottom: -30px;
+    margin-left: 0px;
+    max-width: 500px;
+    width: 100%;
+    height: 113px;
+  }
+
+  .feedback__container {
+    display: flex;
+    max-width: 1328px;
+    width: 100%;
+    padding: 0px 34px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .feedback .card__title {
+    margin-left: 25px;
+    margin-top: 26px;
+  }
+
+  .feedback .card__body {
+    padding: 15px 25px 3px 25px;
+    font-size: 16px;
+  }
+
+  .feedback .card__customer-name {
+    font-size: 18px;
+  }
+
+  .feedback .card__footer {
+    padding: 15px 25px 26px 25px;
+  }
+
+  .feedback .card__customer-stars .stars__container {
+    max-width: 100px;
+  }
+
+  .feedback .card__customer-stars .stars__container .star {
+    width: 18px;
+    height: 14px;
+  }
+
+  .feedback .feedbackSlider {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 430px;
+  }
+}
+
+@media (max-width: 767px) {
+  .feedback__background .background {
+    margin-bottom: -11px;
+    margin-left: 0;
+    max-width: 214px;
+    width: 100%;
+    height: 47px;
+  }
+
+  .feedback__container {
+    display: flex;
+    max-width: 1328px;
+    width: 100%;
+    padding: 0px 34px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .feedback .card__title {
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+
+  .feedback .card__body {
+    padding: 5px 20px 0px 13px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .feedback .card .card__quotes {
+    width: 16px;
+    height: 14px;
+  }
+
+  .feedback .card .card__quotes svg {
+    width: 8px;
+    height: 5px;
+  }
+
+  .feedback .card__customer-name {
+    margin-top: 6px;
+    font-size: 10px;
+  }
+
+  .feedback .card__footer {
+    padding: 10px 20px 0px 13px;
+  }
+
+  .feedback .card__footer-line {
+    max-width: 85px;
+  }
+
+  .feedback .card__customer-stars .stars__container {
+    margin-top: 0px;
+    max-width: 45px;
+  }
+
+  .feedback .card__customer-stars .stars__container .star {
+    width: 16px;
+    height: 15px;
+    display: flex;
+  }
+
+  .feedback .card__customer-stars .stars__container .star svg {
+    width: 6px;
+    height: 5px;
+  }
+
+  .feedback .feedbackSlider {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 268px;
+  }
+
+  .feedback .slider__pagination {
+    margin-top: 52px;
+    position: relative;
+  }
+
+  .feedback .slider__pagination .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0px 5px;
+  }
+
+  .feedback .slider__pagination .swiper-pagination span {
+    margin-left: 0px;
+  }
+
+  .feedback .slider__pagination .swiper-pagination .swiper-pagination-bullet {
+    background-color: #ffe0d9;
+    opacity: 1;
+    height: 10px;
+    width: 10px;
+  }
+
+  .feedback .slider__pagination .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #f2b6a8;
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .gift-card {
+    padding-top: 60px;
+  }
+
+  .gift-card__title {
+    max-width: 286px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .gift-card__text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+
+  .gift-card__btn-block {
+    margin-top: 65px;
+    padding-top: 19px;
+    padding-bottom: 70px;
+  }
+
+  .gift-card__sub-title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .gift-card__btn {
+    margin-top: 27px;
+    padding: 9px 53px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .about {
+    padding: 130px 110px 65px 110px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about {
+    padding: 130px 75px 65px 75px;
+  }
+
+  .about-body {
+    margin: 0 0 100px 0;
+  }
+
+  .about-description {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 40px 43px 35px 43px;
+  }
+
+  .about-body {
+    align-items: center;
+    margin: 0 0 80px 0;
+  }
+
+  .about-description {
+    font-size: 22px;
+  }
+
+  .about-image img {
+    height: 280px;
+    width: 280px;
+  }
+
+  .details-item {
+    max-width: 400px;
+    flex: 0 1 49%;
+  }
+
+  .item-description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 769px) {
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-body {
+    margin: 0 0 60px 0;
+  }
+
+  .about-description {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .about-image img {
+    height: 162px;
+    width: 162px;
+  }
+
+  .details-content {
+    justify-content: center;
+    padding: 0 43px;
+  }
+
+  .details-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 100%;
+  }
+
+  .item-description {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .item-image {
+    margin: 0;
+  }
+
+  .item-image svg {
+    height: 53px;
+    width: 53px;
+  }
+
+  .item-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 577px) {
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+
+  .about-image img {
+    height: 162px;
+    width: 162px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 40px 0 35px 0;
+  }
+
+  .about-body {
+    margin: 0 0 40px 0;
+    padding: 0 14px 0 43px;
+  }
+
+  .about-title {
+    font-size: 18px;
+  }
+
+  .about-description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 769px) {
+  .benefits-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .benefits-block {
+    padding: 140px 71px 57px 71px;
+  }
+
+  .benefits-item {
+    margin: 0 0 50px 0;
+  }
+}
+
+@media (max-width: 769px) {
+  .benefits-block {
+    padding: 70px 40px 57px 40px;
+  }
+
+  .benefits-title {
+    margin: 0 0 55px 0;
+  }
+
+  .benefits-body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .benefits-block {
+    background-image: url(../img/Rectangle-ver2.png);
+    background-position: 0 0;
+    padding: 55px 0 55px 0;
+  }
+
+  .benefits-title {
+    font-size: 14px;
+    margin: 0 0 27px 0;
+    line-height: 16px;
+  }
+
+  .benefits-item {
+    margin: 0 0 35px 0;
+  }
+
+  .benefits-item:last-child {
+    margin: 0;
+  }
+
+  .benefits-subtitle {
+    font-size: 14px;
+    margin: 0 0 11px 0;
+  }
+
+  .benefits-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .effects-block {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .effects-block__title {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .effects-block__container {
+    margin-top: 60px;
+  }
+
+  .effects-block .effectsSlider-slide.swiper-slide span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .effects-block .effectsSlider-slide.swiper-slide .before {
+    padding: 4px 16px;
+  }
+
+  .effects-block .effectsSlider-slide.swiper-slide .after {
+    padding: 4px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .effects-block {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .effects-block__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .effects-block__container {
+    margin-top: 30px;
+  }
+
+  .effects-block .effectsSlider-slide.swiper-slide span {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .effects-block .effectsSlider-slide.swiper-slide .before {
+    padding: 2px 12px;
+  }
+
+  .effects-block .effectsSlider-slide.swiper-slide .after {
+    padding: 2px 16px;
+  }
+
+  .effects-block .effectsSlider-btn-next .next-small {
+    display: block;
+  }
+
+  .effects-block .effectsSlider-btn-next .next-large {
+    display: none;
+  }
+
+  .effects-block .effectsSlider-btn-prev .prev-small {
+    display: block;
+  }
+
+  .effects-block .effectsSlider-btn-prev .prev-large {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    padding: 90px 90px 70px 90px;
+  }
+
+  .footer-logo svg {
+    width: 150px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding: 90px 60px 70px 60px;
+  }
+
+  .footer-logo svg {
+    width: 110px;
+    height: 45px;
+  }
+
+  .element-title {
+    font-size: 14px;
+  }
+
+  .list-item {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer {
+    padding: 41px 43px 51px 43px;
+  }
+
+  .element-title {
+    font-size: 10px;
+    padding: 0 0 8px 0;
+    margin: 0 0 18px 0;
+  }
+
+  .footer-logo {
+    order: 2;
+  }
+
+  .list-item {
+    font-size: 10px;
+    margin: 0 0 8px 0;
+  }
+
+  .element-title::after {
+    width: 83px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 41px 20px 51px 20px;
+  }
+
+  .footer-logo svg {
+    width: 45px;
+    height: 19px;
+  }
+
+  .footer-contacts li {
+    padding: 0 0 0 17px;
+  }
+
+  .footer-contacts li .instagram::before,
+  .footer-contacts li .facebook::before,
+  .footer-contacts li .phone::before,
+  .footer-contacts li .email::before,
+  .footer-contacts li .location::before {
+    width: 11px;
+    height: 10px;
+  }
+
+  .element-title {
+    padding: 0 0 4px 0;
+    margin: 0 0 12px 0;
+  }
+
+  .list-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    margin: 0 0 3px 0;
+  }
+}
